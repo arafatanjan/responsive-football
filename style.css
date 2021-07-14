@@ -57,6 +57,9 @@ h1{
     display: grid;
     grid-template-columns:repeat(3, 1fr) ;
     background-color: white;
+    padding-left: 180px;
+    padding-right: 210px;
+    grid-gap: 30px;
 }
 .photo-detail p{
     background-color: white;
@@ -68,4 +71,37 @@ h1{
 
 .magazines{
     display: flex;
+    
 }
+
+.footer-part{
+    width: 484px;
+    height: 213px;
+}
+
+.logo-photo img{
+    width: 100%;
+}
+/* .social-icon{ */
+    justify-content: center;
+}
+.last-section{
+    background-color: green;
+    border-color: greenyellow;
+    margin-top: 100px;
+}
+
+/* .football-logo{ */
+    display: flex;
+    justify-content: center;
+
+ /* .football-logo{ */
+    display: flex;
+    justify-content: center;
+ }   
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
