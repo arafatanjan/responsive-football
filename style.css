@@ -4,6 +4,12 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+@media (max-width:360px) {
+    .photo-album{
+        flex-direction: column;
+    }
+}
+
 section{
     size: 200%;
 }
@@ -36,11 +42,18 @@ h1{
 .header-2{
     width: 556px;
     height: 438px;
+    margin-top: 153px;
+    margin-right: 140px;
+    
     /* margin: 153px 141px 86px 100px; */
 }
 .photo img{
-    width: 100%;
-    
+    width: 100%;   
+}
+
+
+.photo:hover{
+    width: 500px;
 }
 
 .photo-frame{
@@ -57,8 +70,8 @@ h1{
     display: grid;
     grid-template-columns:repeat(3, 1fr) ;
     background-color: white;
-    padding-left: 180px;
-    padding-right: 210px;
+    padding-left: 90px;
+    padding-right: 310px;
     grid-gap: 30px;
 }
 .photo-detail p{
@@ -69,14 +82,44 @@ h1{
     background-color: white;
 }
 
+.magazine-container{
+    margin-top: 10px;
+    background-color: khaki ;
+}
+
+.section-tittle{
+    margin-left: 90px;
+}
+
 .magazines{
     display: flex;
+    justify-content: space-around;
     
+}
+
+.magazine-banner{
+    width: 200px;
+    height: 200px;
+}
+
+.magazine-banner img{
+    width: 100%;
+}
+
+.magazine-detail h3{
+    margin: 5px 0 0 0; 
+}
+
+.magazine-detail p{
+    margin: 0px;
 }
 
 .footer-part{
     width: 484px;
     height: 213px;
+    justify-content: center;
+    margin-left: 475px;
+    margin-top: 200px;
 }
 
 .logo-photo img{
@@ -100,7 +143,16 @@ h1{
     justify-content: center;
  }   
 
-footer {
+footer{
+    width: 100%;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.Copyright{ 
     display: flex;
     justify-content: center;
 }
