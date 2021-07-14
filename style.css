@@ -25,6 +25,14 @@ h1{
     padding:212px 235px 102px 156px;
 }
 
+.link-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: white;
+    font-weight: 100;
+}
+
 .header-2{
     width: 556px;
     height: 438px;
@@ -38,8 +46,26 @@ h1{
 .photo-frame{
     width: 330px;
     height: 480px;
-    border: 10px solid black;
+    border: 10px solid #FFFFFF;
+    box-shadow: 10px 10px 10px 10px gray;
 }
 .photo-1 img{
     width: 100%;
+}
+
+.photo-album{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    background-color: white;
+}
+.photo-detail p{
+    background-color: white;
+}
+
+.photo-detail h3{
+    background-color: white;
+}
+
+.magazines{
+    display: flex;
 }
