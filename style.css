@@ -4,12 +4,6 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-@media (max-width:360px) {
-    .photo-album{
-        flex-direction: column;
-    }
-}
-
 section{
     size: 200%;
 }
@@ -52,10 +46,14 @@ h1{
 }
 
 
+/*------ photo animation------------ */
+
 .photo:hover{
     width: 500px;
 }
 
+
+/* <!----------------- New Section Football Players ----------------------> */
 .photo-frame{
     width: 330px;
     height: 480px;
@@ -91,6 +89,8 @@ h1{
     margin-left: 90px;
 }
 
+/* <!----------------- New Section Football Magazines ----------------------> */
+
 .magazines{
     display: flex;
     justify-content: space-around;
@@ -114,6 +114,8 @@ h1{
     margin: 0px;
 }
 
+/* <!----------------- New Section Footer ----------------------> */
+
 .footer-part{
     width: 484px;
     height: 213px;
@@ -125,20 +127,20 @@ h1{
 .logo-photo img{
     width: 100%;
 }
-/* .social-icon{ */
+ .social-icon{ 
     justify-content: center;
 }
-.last-section{
+/* /.last-section{
     background-color: green;
     border-color: greenyellow;
-    margin-top: 100px;
-}
+    margin-top: 100px; */
+} 
 
 /* .football-logo{ */
     display: flex;
     justify-content: center;
 
- /* .football-logo{ */
+  .football-logo{ 
     display: flex;
     justify-content: center;
  }   
@@ -157,3 +159,46 @@ footer{
     justify-content: center;
 }
 
+/* ------- */
+/*___________ Mobile Devices----------------------------------- */
+
+@media only screen and (max-width:688px) {
+        .banner  {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+
+}
+
+
+@media only screen and (max-width:688px){
+    .photo-album {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+ @media only screen and (max-width:688px){
+    .magazines{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+} 
+
+/* @media only screen and (max-width:688px){
+    .last-section{
+        /* width: 100%; */
+    /* } */
+/* } */ */
+
+
+/*  .last-section */
+/* @media (max-width:360px) { */
+    
+    
